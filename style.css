@@ -1,0 +1,45 @@
+body {
+    background-image: url('depositphotos.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+.meme-generater{
+    font-family: cursive;
+    text-align: center;
+
+}
+.meme-generater img{
+    height: 430px;
+    object-fit: cover;
+}
+.meme-generater .generate-meme-button{
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid black;
+    border-right: 4px solid rgb(18, 18, 18);
+    margin: 20px 0;
+    font-size: xx-large;
+    color: rgb(235, 6, 6);
+    background-color: rgb(18, 18, 18);
+    cursor: pointer;
+    transition: all 400ms ease;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.meme-generater .generate-meme-button:hover{
+    padding: 8px 36px;
+    background-color: rgba(244, 244, 245, 0.745);
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+
+}
+.meme-generater .meme-author{
+    margin: 8px;
+}
